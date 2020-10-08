@@ -47,7 +47,7 @@ def call(Map config) {
                              Version,
                              Environment,
                              NetworkStackName]
-                    , timeoutInMinutes: 40, pollInterval: 1000)
+                    , timeoutInMinutes: 50, pollInterval: 1000)
             return outputs
         }
     }
